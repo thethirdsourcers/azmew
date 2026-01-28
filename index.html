@@ -8,7 +8,6 @@
   <meta name="description"
     content="Build a website, manage your business, and deliver all over Nepal with Azmew. The ultimate platform for entrepreneurs in Nepal.">
   <link rel="stylesheet" href="index.css">
-  <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
@@ -18,32 +17,28 @@
   <nav class="navbar">
     <div class="container">
       <a href="#" class="logo-link">
-        <img src="logo.svg" alt="Azmew Logo" class="logo">
+        <img src="logo.svg" alt="Azmew Logo" height="32">
       </a>
       <ul class="nav-links">
         <li><a href="#features">Features</a></li>
         <li><a href="#templates">Templates</a></li>
         <li><a href="#logistics">Logistics</a></li>
-        <li><a href="#contact">Contact</a></li>
         <li><a href="https://wa.me/9779800000000" class="btn btn-primary">Get Started</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero Section - Typographic Focus -->
   <section class="hero">
     <div class="container">
-      <div class="hero-content">
-        <h1>Launch Your Online Business in Nepal Within Minutes</h1>
-        <p>Build a stunning website, manage your inventory, and deliver across Nepal with Azmew's all-in-one platform.
-        </p>
-        <div class="hero-btns">
-          <a href="https://wa.me/9779800000000" class="btn btn-primary">Start Building Now</a>
-          <a href="#features" class="btn btn-secondary">Explore Features</a>
-        </div>
+      <h1>Launch Your Online Business <span class="text-accent">In Nepal</span> Within Minutes</h1>
+      <p>The all-in-one platform to build your website, manage inventory, and deliver across the country.</p>
+      <div class="hero-btns" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="https://wa.me/9779800000000" class="btn btn-primary">Start Building Now</a>
+        <a href="#features" class="btn btn-outline">Explore Features</a>
       </div>
       <div class="hero-visual">
-        <img src="azmew_hero_mockup_1769596856059.png" alt="Azmew Dashboard Mockup">
+        <img src="azmew_hero_mockup_1769596856059.png" alt="Azmew Dashboard">
       </div>
     </div>
   </section>
@@ -51,122 +46,70 @@
   <!-- Features Section -->
   <section id="features" class="section">
     <div class="container">
-      <div class="section-title">
-        <h2>Our Core Features</h2>
-        <p>Everything you need to run a successful online business in Nepal, all in one place.</p>
+      <div style="text-align: center; margin-bottom: 4rem;">
+        <h2 style="font-size: 3rem; margin-bottom: 1rem;">Scale Your Vision</h2>
+        <p style="color: var(--color-text-muted); font-size: 1.25rem;">Everything you need for the Nepalese market.</p>
       </div>
       <div class="features-grid">
-        <!-- SiteBuilder -->
-        <div class="card feature-card">
-          <div class="feature-icon">
-            <i data-lucide="layout"></i>
-          </div>
+        <div class="feature-card">
+          <i data-lucide="layout" class="feature-icon"></i>
           <h3>SiteBuilder</h3>
-          <p>Powerful drag-and-drop builder to create professional websites without any coding knowledge.</p>
+          <p>Drag-and-drop builder created for speed. Launch in minutes, not days.</p>
         </div>
-        <!-- Ready Templates -->
-        <div class="card feature-card">
-          <div class="feature-icon">
-            <i data-lucide="grid"></i>
-          </div>
+        <div class="feature-card">
+          <i data-lucide="grid" class="feature-icon"></i>
           <h3>Ready Templates</h3>
-          <p>Choose from dozens of high-converting templates optimized for various business scenarios in Nepal.</p>
+          <p>Dozens of high-converting designs optimized for local business speed.</p>
         </div>
-        <!-- Logistic -->
-        <div class="card feature-card">
-          <div class="feature-icon">
-            <i data-lucide="truck"></i>
-          </div>
-          <h3>Logistic Integration</h3>
-          <p>Integrated delivery network covering major cities and remote areas across Nepal.</p>
+        <div class="feature-card">
+          <i data-lucide="truck" class="feature-icon"></i>
+          <h3>Logistics Hub</h3>
+          <p>Direct integration with Nepal's leading delivery providers.</p>
         </div>
-        <!-- RuleEngines -->
-        <div class="card feature-card">
-          <div class="feature-icon">
-            <i data-lucide="settings"></i>
-          </div>
+        <div class="feature-card">
+          <i data-lucide="settings" class="feature-icon"></i>
           <h3>Rule Engines</h3>
-          <p>Automate your business workflows, from pricing rules to shipping calculations with ease.</p>
+          <p>Automate pricing, shipping, and taxation for every province.</p>
         </div>
-        <!-- Dynamic Product Management -->
-        <div class="card feature-card">
-          <div class="feature-icon">
-            <i data-lucide="package"></i>
-          </div>
-          <h3>Product Management</h3>
-          <p>Manage thousands of products, variants, and stock levels with our dynamic inventory system.</p>
+        <div class="feature-card">
+          <i data-lucide="package" class="feature-icon"></i>
+          <h3>Inventory Pro</h3>
+          <p>Manage variants and stock levels across multiple locations.</p>
         </div>
-        <!-- Growth Analytics -->
-        <div class="card feature-card">
-          <div class="feature-icon">
-            <i data-lucide="trending-up"></i>
-          </div>
+        <div class="feature-card">
+          <i data-lucide="trending-up" class="feature-icon"></i>
           <h3>Growth Analytics</h3>
-          <p>Track your sales, customer behavior, and business performance in real-time.</p>
+          <p>Real-time data to help you make smarter business decisions.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Templates Section -->
-  <section id="templates" class="section">
+  <!-- Logistics Section - Asymmetric Reveal -->
+  <section id="logistics" class="section bg-surface">
     <div class="container">
-      <div class="section-title">
-        <h2>Ready for Any Business</h2>
-        <p>Start with a template that fits your industry. Fully customizable to match your brand identity.</p>
-      </div>
-      <div style="text-align: center;">
-        <img src="azmew_templates_preview_1769596999504.png" alt="Azmew Templates Preview"
-          style="max-width: 1000px; margin: 0 auto; border-radius: 20px; box-shadow: var(--shadow-xl);">
-      </div>
-      <div class="hero-btns" style="justify-content: center; margin-top: var(--space-2xl);">
-        <a href="https://wa.me/9779800000000" class="btn btn-primary">Browse All Templates</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Logistics Section -->
-  <section id="logistics" class="section" style="background-color: #f1f5f9;">
-    <div class="container">
-      <div class="hero-flex"
-        style="display: flex; flex-direction: row-reverse; gap: var(--space-3xl); align-items: center; flex-wrap: wrap;">
-        <div class="hero-content" style="flex: 1; text-align: left; min-width: 300px;">
-          <h2 style="font-size: 2.5rem; color: var(--color-primary); margin-bottom: var(--space-md);">Delivery All Over
-            Nepal</h2>
-          <p style="margin-bottom: var(--space-lg);">Azmew partners with leading logistics providers to ensure your
-            products reach customers in Kathmandu, Pokhara, Butwal, and beyond. We handle the complexity so you can
-            focus on selling.</p>
-          <ul style="margin-bottom: var(--space-xl); color: var(--color-text); list-style: none; padding: 0;">
-            <li style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;"><i
-                data-lucide="check-circle" style="color: #10b981;"></i> Island-wide delivery tracking</li>
-            <li style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;"><i
-                data-lucide="check-circle" style="color: #10b981;"></i> Cash on Delivery (COD) support</li>
-            <li style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;"><i
-                data-lucide="check-circle" style="color: #10b981;"></i> Automated label generation</li>
+      <div class="logistics-reveal">
+        <div style="flex: 1; text-align: left;">
+          <h2 style="font-size: 3.5rem; margin-bottom: 1.5rem;">Delivery <br>All Over Nepal</h2>
+          <p style="margin-bottom: 2rem; font-size: 1.15rem;">From the streets of Kathmandu to the valleys of Pokhara.
+            We've built the network so you can focus on the product.</p>
+          <ul style="list-style: none; margin-bottom: 2.5rem;">
+            <li style="display: flex; gap: 1rem; margin-bottom: 1rem; font-weight: 600;">
+              <i data-lucide="check" class="text-accent"></i> Real-time Fleet Tracking
+            </li>
+            <li style="display: flex; gap: 1rem; margin-bottom: 1rem; font-weight: 600;">
+              <i data-lucide="check" class="text-accent"></i> Integrated COD Support
+            </li>
+            <li style="display: flex; gap: 1rem; margin-bottom: 1rem; font-weight: 600;">
+              <i data-lucide="check" class="text-accent"></i> Automated Labeling
+            </li>
           </ul>
           <a href="https://wa.me/9779800000000" class="btn btn-primary">Inquire About Logistics</a>
         </div>
-        <div class="hero-visual" style="flex: 1; min-width: 300px;">
-          <div style="background: white; padding: 20px; border-radius: 20px; box-shadow: var(--shadow-xl);">
-            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
-              alt="Logistics in Nepal" style="border-radius: 12px; width: 100%;">
-          </div>
+        <div style="flex: 1;">
+          <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
+            alt="Logistics Network" style="filter: grayscale(1); border: 1px solid #000;">
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Final CTA -->
-  <section id="contact" class="section">
-    <div class="container">
-      <div class="card"
-        style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); color: white; text-align: center; padding: var(--space-3xl);">
-        <h2 style="font-size: 3rem; margin-bottom: var(--space-md);">Ready to start your journey?</h2>
-        <p style="font-size: 1.25rem; margin-bottom: var(--space-2xl); opacity: 0.9;">Join hundreds of successful
-          entrepreneurs using Azmew across Nepal.</p>
-        <a href="https://wa.me/9779800000000" class="btn btn-primary"
-          style="background-color: white; color: var(--color-primary); font-size: 1.25rem; padding: 1rem 2.5rem;">Launch
-          My Business Now</a>
       </div>
     </div>
   </section>
@@ -175,35 +118,35 @@
   <footer>
     <div class="container">
       <div class="footer-grid">
-        <div class="footer-info">
-          <img src="logo.svg" alt="Azmew Logo" class="logo" style="filter: brightness(0) invert(1);">
-          <p>Azmew is Nepal's leading e-commerce enablement platform, helping local businesses sell online and scale.
-          </p>
+        <div>
+          <img src="logo.svg" alt="Azmew" height="32" style="filter: brightness(0) invert(1); margin-bottom: 1.5rem;">
+          <p style="color: #94a3b8;">Empowering the next generation of Nepalese entrepreneurs with world-class digital
+            tools.</p>
         </div>
-        <div class="footer-links">
-          <h4>Platform</h4>
-          <ul>
-            <li><a href="#features">SiteBuilder</a></li>
-            <li><a href="#templates">Templates</a></li>
-            <li><a href="#logistics">Logistics</a></li>
-            <li><a href="#pricing">Pricing</a></li>
+        <div>
+          <h4 style="margin-bottom: 1.5rem; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.1em;">
+            Product</h4>
+          <ul style="list-style: none; color: #94a3b8; line-height: 2;">
+            <li>SiteBuilder</li>
+            <li>Templates</li>
+            <li>Logistics</li>
           </ul>
         </div>
-        <div class="footer-links">
-          <h4>Company</h4>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
+        <div>
+          <h4 style="margin-bottom: 1.5rem; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.1em;">
+            Company</h4>
+          <ul style="list-style: none; color: #94a3b8; line-height: 2;">
+            <li>About Us</li>
+            <li>Contact</li>
+            <li>Privacy</li>
           </ul>
         </div>
-        <div class="footer-links">
-          <h4>Support</h4>
-          <ul>
-            <li><a href="#">Help Center</a></li>
-            <li><a href="https://wa.me/9779800000000">WhatsApp Support</a></li>
-            <li><a href="#">Email Us</a></li>
+        <div>
+          <h4 style="margin-bottom: 1.5rem; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.1em;">
+            Support</h4>
+          <ul style="list-style: none; color: #94a3b8; line-height: 2;">
+            <li>Help Center</li>
+            <li>WhatsApp</li>
           </ul>
         </div>
       </div>
@@ -213,23 +156,33 @@
     </div>
   </footer>
 
-  <!-- WhatsApp Float -->
-  <a href="https://wa.me/9779800000000" class="whatsapp-float">
-    <i data-lucide="message-circle"></i>
-  </a>
+  <!-- Sticky Mobile CTA Bar -->
+  <div class="sticky-mobile-cta">
+    <div style="color: white;">
+      <div style="font-weight: 800; font-size: 0.75rem; text-transform: uppercase;">Azmew Nepal</div>
+      <div style="font-size: 0.7rem; opacity: 0.7;">Launch in minutes</div>
+    </div>
+    <a href="https://wa.me/9779800000000" class="btn btn-primary" style="padding: 0.8rem 1.2rem;">Start Now</a>
+  </div>
 
   <script>
-    // Initialize Lucide Icons
     lucide.createIcons();
 
-    // Smooth scroll for anchors
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
+    // Simple reveal animation observer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
       });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.feature-card, .logistics-reveal').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'all 0.6s cubic-bezier(0.23, 1, 0.32, 1)';
+      observer.observe(el);
     });
   </script>
 </body>
